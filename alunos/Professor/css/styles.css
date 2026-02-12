@@ -1,0 +1,36 @@
+/* Basic site styles and small customizations */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    /* header visuals are handled by Bootstrap classes, keep small tweaks here if needed */
+}
+
+.bg-white {
+    /* ensure content blocks contrast well on small screens */
+}
+
+/* Make images slightly more constrained on very small screens */
+img.img-fluid {
+    max-height: 420px;
+    object-fit: cover;
+}
+
+/* Footer tweaks */
+footer p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Utility tweaks for very small devices */
+@media (max-width: 576px) {
+    header { padding: 2rem 1rem; }
+    .display-5 { font-size: 1.5rem; }
+    main .bg-white { padding: 1rem; }
+}
