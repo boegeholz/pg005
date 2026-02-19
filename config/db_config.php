@@ -6,7 +6,7 @@
 $db_host = 'localhost';
 $db_name = 'u836476048_pg005_db';
 $db_user = 'u836476048_pg005_user';
-$db_pass = 'Unialcance2025*';
+$db_pass = '.Unialcance2025*';
 $db_charset = 'utf8mb4';
 
 // DSN (Data Source Name) para uso com PDO
